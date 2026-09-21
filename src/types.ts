@@ -6,6 +6,9 @@ export interface Item {
   quantity: string
   comment: string
   price: number
+  pricePerKg?: number
+  pricePerUnit?: number
+  supplier?: string
   category: string
 }
 
@@ -30,4 +33,9 @@ export interface Order {
 export interface SuppliersData {
   suppliers: Supplier[]
   lastUpdated: string
+}
+
+export interface CategoryData {
+  name: string
+  items: Item[]
 }
