@@ -80,8 +80,8 @@
 .itemFormGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
-  margin-bottom: 1rem;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .formGroup {
@@ -96,6 +96,20 @@
   font-size: 0.9rem;
 }
 
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formGroup label {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
 .input,
 .textarea {
   padding: 0.75rem;
@@ -105,6 +119,7 @@
   color: var(--text-primary);
   font-size: 0.95rem;
   font-family: inherit;
+  transition: all 0.2s;
 }
 
 .input:focus,
@@ -112,6 +127,7 @@
   outline: none;
   border-color: var(--primary);
   box-shadow: 0 0 0 2px var(--primary-alpha);
+  background: var(--bg-primary);
 }
 
 .textarea {
@@ -289,6 +305,10 @@
 
 .editItemForm {
   width: 100%;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
 }
 
 @media (max-width: 768px) {

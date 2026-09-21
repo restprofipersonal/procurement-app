@@ -236,7 +236,7 @@ function SupplierDetail({ supplier, onBack }: SupplierDetailProps) {
           <div className={styles.addItemForm}>
             <div className={styles.itemFormGrid}>
               <div className={styles.formGroup}>
-                <label>Название товара *</label>
+                <label>Наименование товара</label>
                 <input
                   type="text"
                   value={newItem.name || ''}
@@ -260,7 +260,6 @@ function SupplierDetail({ supplier, onBack }: SupplierDetailProps) {
                   value={newItem.portion || ''}
                   onChange={(e) => setNewItem({ ...newItem, portion: e.target.value })}
                   className={styles.input}
-                  placeholder="1 кг, 500 гр, 1 шт..."
                 />
               </div>
               <div className={styles.formGroup}>
@@ -273,7 +272,7 @@ function SupplierDetail({ supplier, onBack }: SupplierDetailProps) {
                 />
               </div>
               <div className={styles.formGroup}>
-                <label>Цена за кг</label>
+                <label>Цена/кг</label>
                 <input
                   type="number"
                   value={newItem.pricePerKg || ''}
@@ -283,7 +282,7 @@ function SupplierDetail({ supplier, onBack }: SupplierDetailProps) {
                 />
               </div>
               <div className={styles.formGroup}>
-                <label>Цена за штуку</label>
+                <label>Цена/шт</label>
                 <input
                   type="number"
                   value={newItem.pricePerUnit || ''}
@@ -293,7 +292,7 @@ function SupplierDetail({ supplier, onBack }: SupplierDetailProps) {
                 />
               </div>
               <div className={styles.formGroup}>
-                <label>Основная цена</label>
+                <label>Цена</label>
                 <input
                   type="number"
                   value={newItem.price || ''}
@@ -319,58 +318,72 @@ function SupplierDetail({ supplier, onBack }: SupplierDetailProps) {
                   {editingItemId === item.id ? (
                     <div className={styles.editItemForm}>
                       <div className={styles.itemFormGrid}>
-                        <input
-                          type="text"
-                          value={editingItem.name || ''}
-                          onChange={(e) => setEditingItem({ ...editingItem, name: e.target.value })}
-                          className={styles.input}
-                          placeholder="Название"
-                        />
-                        <input
-                          type="text"
-                          value={editingItem.article || ''}
-                          onChange={(e) => setEditingItem({ ...editingItem, article: e.target.value })}
-                          className={styles.input}
-                          placeholder="Артикул"
-                        />
-                        <input
-                          type="text"
-                          value={editingItem.portion || ''}
-                          onChange={(e) => setEditingItem({ ...editingItem, portion: e.target.value })}
-                          className={styles.input}
-                          placeholder="Фасовка"
-                        />
-                        <input
-                          type="text"
-                          value={editingItem.category || ''}
-                          onChange={(e) => setEditingItem({ ...editingItem, category: e.target.value })}
-                          className={styles.input}
-                          placeholder="Категория"
-                        />
-                        <input
-                          type="number"
-                          value={editingItem.pricePerKg || ''}
-                          onChange={(e) => setEditingItem({ ...editingItem, pricePerKg: Number(e.target.value) })}
-                          className={styles.input}
-                          placeholder="Цена/кг"
-                          step="0.01"
-                        />
-                        <input
-                          type="number"
-                          value={editingItem.pricePerUnit || ''}
-                          onChange={(e) => setEditingItem({ ...editingItem, pricePerUnit: Number(e.target.value) })}
-                          className={styles.input}
-                          placeholder="Цена/шт"
-                          step="0.01"
-                        />
-                        <input
-                          type="number"
-                          value={editingItem.price || ''}
-                          onChange={(e) => setEditingItem({ ...editingItem, price: Number(e.target.value) })}
-                          className={styles.input}
-                          placeholder="Цена"
-                          step="0.01"
-                        />
+                        <div className={styles.formGroup}>
+                          <label>Наименование товара</label>
+                          <input
+                            type="text"
+                            value={editingItem.name || ''}
+                            onChange={(e) => setEditingItem({ ...editingItem, name: e.target.value })}
+                            className={styles.input}
+                          />
+                        </div>
+                        <div className={styles.formGroup}>
+                          <label>Артикул</label>
+                          <input
+                            type="text"
+                            value={editingItem.article || ''}
+                            onChange={(e) => setEditingItem({ ...editingItem, article: e.target.value })}
+                            className={styles.input}
+                          />
+                        </div>
+                        <div className={styles.formGroup}>
+                          <label>Фасовка</label>
+                          <input
+                            type="text"
+                            value={editingItem.portion || ''}
+                            onChange={(e) => setEditingItem({ ...editingItem, portion: e.target.value })}
+                            className={styles.input}
+                          />
+                        </div>
+                        <div className={styles.formGroup}>
+                          <label>Категория</label>
+                          <input
+                            type="text"
+                            value={editingItem.category || ''}
+                            onChange={(e) => setEditingItem({ ...editingItem, category: e.target.value })}
+                            className={styles.input}
+                          />
+                        </div>
+                        <div className={styles.formGroup}>
+                          <label>Цена/кг</label>
+                          <input
+                            type="number"
+                            value={editingItem.pricePerKg || ''}
+                            onChange={(e) => setEditingItem({ ...editingItem, pricePerKg: Number(e.target.value) })}
+                            className={styles.input}
+                            step="0.01"
+                          />
+                        </div>
+                        <div className={styles.formGroup}>
+                          <label>Цена/шт</label>
+                          <input
+                            type="number"
+                            value={editingItem.pricePerUnit || ''}
+                            onChange={(e) => setEditingItem({ ...editingItem, pricePerUnit: Number(e.target.value) })}
+                            className={styles.input}
+                            step="0.01"
+                          />
+                        </div>
+                        <div className={styles.formGroup}>
+                          <label>Цена</label>
+                          <input
+                            type="number"
+                            value={editingItem.price || ''}
+                            onChange={(e) => setEditingItem({ ...editingItem, price: Number(e.target.value) })}
+                            className={styles.input}
+                            step="0.01"
+                          />
+                        </div>
                       </div>
                       <div className={styles.itemActions}>
                         <button onClick={handleSaveItem} className={styles.saveBtn}>✓ Сохр</button>
