@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useProcurementStore } from './store'
 import { SuppliersData } from './types'
-import SuppliersList from './components/SuppliersList'
+import SupplierList from './components/SupplierList'
+import SupplierItems from './components/SupplierItems'
 import CurrentOrder from './components/CurrentOrder'
 import OrderHistory from './components/OrderHistory'
 import AdminLogin from './components/AdminLogin'
@@ -12,11 +13,13 @@ import './styles.css'
 function App() {
   const [loading, setLoading] = useState(true)
   const [tab, setTab] = useState<'order' | 'history' | 'admin'>('order')
-  const { loadSuppliers, isAdminLoggedIn, logoutAdmin, currentOrder } = useProcurementStore(s => ({
+  const [selectedSupplier, setSelectedSupplier] = useState<string | null>(null)
+  const { loadSuppliers, isAdminLoggedIn, logoutAdmin, currentOrder, suppliers } = useProcurementStore(s => ({
     loadSuppliers: s.loadSuppliers,
     isAdminLoggedIn: s.isAdminLoggedIn,
     logoutAdmin: s.logoutAdmin,
-    currentOrder: s.currentOrder
+    currentOrder: s.currentOrder,
+    suppliers: s.suppliers
   }))
 
   useEffect(() => {
@@ -86,8 +89,18 @@ function App() {
 
       <div className="container">
         {tab === 'order' && (
-          <div className="order-view">
-            <SuppliersList />
+          <div className="order-view-new">
+            <div className="suppliers-panel">
+              <SupplierList
+                selectedSupplier={selectedSupplier}
+                onSelectSupplier={setSelectedSupplier}
+              />
+            </div>
+            <div className="items-panel">
+              <SupplierItems
+                supplier={suppliers.find(s => s.name === selectedSupplier) || null}
+              />
+            </div>
             <div className="order-panel">
               <CurrentOrder />
               {currentOrder.length > 0 && <SMSGenerator orderItems={currentOrder} />}

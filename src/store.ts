@@ -22,6 +22,9 @@ interface ProcurementStore {
   deleteItem: (itemId: string) => void
   updateItem: (itemId: string, updates: Partial<Item>) => void
   loadItemsFromJSON: (items: Item[]) => void
+  addSupplier: (supplier: Supplier) => void
+  updateSupplier: (supplierName: string, updates: Partial<Supplier>) => void
+  deleteSupplier: (supplierName: string) => void
 }
 
 export const useProcurementStore = create<ProcurementStore>()(
@@ -194,6 +197,27 @@ export const useProcurementStore = create<ProcurementStore>()(
         }))
 
         set({ suppliers, allItems: items })
+      },
+
+      addSupplier: (supplier: Supplier) => {
+        set(state => ({
+          suppliers: [...state.suppliers, supplier]
+        }))
+      },
+
+      updateSupplier: (supplierName: string, updates: Partial<Supplier>) => {
+        set(state => ({
+          suppliers: state.suppliers.map(s =>
+            s.name === supplierName ? { ...s, ...updates } : s
+          )
+        }))
+      },
+
+      deleteSupplier: (supplierName: string) => {
+        set(state => ({
+          suppliers: state.suppliers.filter(s => s.name !== supplierName),
+          allItems: state.allItems.filter(item => item.supplier !== supplierName)
+        }))
       }
     }),
     {

@@ -16,6 +16,9 @@ export interface Supplier {
   name: string
   contact: string
   items: Item[]
+  repName?: string
+  repPhone?: string
+  orderDeadline?: string
 }
 
 export interface OrderItem {
