@@ -1,0 +1,1687 @@
+﻿{
+    "lastUpdated":  "2026-09-18 12:15:11",
+    "suppliers":  [
+                      {
+                          "contact":  "С заявками Пить Кофе один раз в неделю ТОЛЬКО ПО ПЛОНЕДЕЛЬНИКАМ. Отдать заявку Бухгалтеру, либо старшему бармену Пить Кофе, не позднее понедельника 10:00",
+                          "name":  "ИП Морозов",
+                          "items":  [
+                                        {
+                                            "article":  "",
+                                            "id":  "932a7a27",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "Капуста пекинская",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "3996144a",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "Капуста красная",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "e1f931f5",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "Морковь",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "c8fc482d",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "Дайкон свежий",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "e09da098",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "базилик свежий",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "от 0,1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "8f749bd8",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "грейпфрут",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "74654f02",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "имбирь свежий",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "692cfa0f",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "лайм",
+                                            "comment":  "",
+                                            "quantity":  "4",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "ff1dcf59",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "лемонграсс",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "от 0,1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "3a278c65",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "лимон",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "2c71b7d5",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "листья лайма",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "9e42a621",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "огурец свежий",
+                                            "comment":  "",
+                                            "quantity":  "2кг",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "38238924",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "баклажан свежий",
+                                            "comment":  "",
+                                            "quantity":  "2кг",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "b62e4517",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "шпинат свежий",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0.1кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "912d4126",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "мята свежая",
+                                            "comment":  "",
+                                            "quantity":  "250",
+                                            "portion":  "гр"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "00793ce9",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "Чеснок",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "29891d97",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "Корица палочка",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "cc26a383",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "яблоки",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "79229591",
+                                            "category":  "Без категории",
+                                            "price":  0,
+                                            "name":  "эстрагон",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "0fdf53f6",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Мусорные пакеты маленькие",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "a11c9505",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Мусорные пакеты большие",
+                                            "comment":  "",
+                                            "quantity":  "5",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "96ed8e5e",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "⁠Перчатки прозрачные размер L",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "9374bc59",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Перчатки синие L",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "dd4c7b96",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Тряпки резиновые цветные",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "e28f2c43",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Антижир/Озелит Пульверизатор",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "3a4dcf55",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "⁠Губка  10шт",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "a921b470",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "⁠Мыло для рук 1л",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "7329d77a",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Полотно вафельное",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "5e35f75e",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Фольга",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "aa053ff9",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пергамент",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "c89dd464",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Моющее для посуды",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "c84cc6f7",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Средство для очистки туалетов",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "909ac4c1",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пищевая пленка",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "83d5024f",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пакеты вакуум маленькие",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "bf343660",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пакеты вакуум большие",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "b3156813",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Порошок стиральный 1кг",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "3252ed06",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Металлические губки 3 шт",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "615371bb",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пульверизатор для мебели",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "51629714",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Тряпки микрофибра",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "f83d2f13",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Тряпка для швабры белая",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "a32b1e68",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "чай молочный улун",
+                                            "comment":  "ИП ПРУДКОВ",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "d2a7703e",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "сироп  (все остальные вкусы)",
+                                            "comment":  "ИП Акопова",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "ac031679",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Мороженое Ваниль",
+                                            "comment":  "ТОРОС",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "eebc3001",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Мороженное Фисташка",
+                                            "comment":  "ТОРОС",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "9ff78bd5",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Тоник ( мул он Партнёр )",
+                                            "comment":  "МУЛТОН",
+                                            "quantity":  "6",
+                                            "portion":  ""
+                                        }
+                                    ]
+                      },
+                      {
+                          "contact":  "",
+                          "name":  "МЕТРО с заявкой Пить Кофе  понедельник/четверг",
+                          "items":  [
+                                        {
+                                            "article":  "205301",
+                                            "id":  "0fddb218",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "METRO Chef Кокосовая стружка",
+                                            "comment":  "667,95 руб/кг",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "235697",
+                                            "id":  "82a0c56b",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Сахар тростниковый Брауни Demerara Gold кристаллический",
+                                            "comment":  "0,9 кг - 189 руб (1 кг - 210 руб)",
+                                            "quantity":  "",
+                                            "portion":  "0,9 кг"
+                                        },
+                                        {
+                                            "article":  "203517",
+                                            "id":  "d71b00b4",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Паста Aroy-D Том ям",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "101281",
+                                            "id":  "647a199a",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "METRO Chef Приправа Анис звездчатый, 65г",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,065 кг"
+                                        },
+                                        {
+                                            "article":  "422355",
+                                            "id":  "647892a7",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Бумага рисовая Sen Soy 20 листов",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,1 кг"
+                                        },
+                                        {
+                                            "article":  "521264",
+                                            "id":  "cb2609a3",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "METRO Chef Креветки белоногие 16/20 без головы легкой очистки свежемороженые",
+                                            "comment":  "",
+                                            "quantity":  "4кг",
+                                            "portion":  "0,86 кг"
+                                        },
+                                        {
+                                            "article":  "117189",
+                                            "id":  "bfca5f74",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Сахар песок 1 кг",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "210381",
+                                            "id":  "1bf3a732",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Сахар песок 5 кг",
+                                            "comment":  "",
+                                            "quantity":  "15",
+                                            "portion":  "5 кг"
+                                        },
+                                        {
+                                            "article":  "236970",
+                                            "id":  "562bf4b4",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Масло подсолнечное Станичное солнце, 900мл",
+                                            "comment":  "",
+                                            "quantity":  "1,8кг",
+                                            "portion":  "0,9 л"
+                                        },
+                                        {
+                                            "article":  "408255",
+                                            "id":  "44143e83",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Кокосовое молоко Aroy-D",
+                                            "comment":  "",
+                                            "quantity":  "2 шт",
+                                            "portion":  "1 шт"
+                                        },
+                                        {
+                                            "article":  "282611",
+                                            "id":  "ac85fa54",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Сливки 33% Бариста Лайн",
+                                            "comment":  "",
+                                            "quantity":  "2 л",
+                                            "portion":  "1 л"
+                                        },
+                                        {
+                                            "article":  "665007",
+                                            "id":  "6421db9d",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Молоко сгущеное 0,2% МЕТРО ШЕФ",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1,25 кг"
+                                        },
+                                        {
+                                            "article":  "294851",
+                                            "id":  "7a5d0674",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Паста Aroy-D чили соевое масло",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,26 кг"
+                                        },
+                                        {
+                                            "article":  "233011",
+                                            "id":  "7bc3375c",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Молоко Банан Planto 1 л                               ЗАКАЗ ОТ 3 ШТ",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 л"
+                                        },
+                                        {
+                                            "article":  "232990",
+                                            "id":  "3c6ea519",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Молоко кокос Рlanto 1 л                                ЗАКАЗ ОТ 3 ШТ",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 л"
+                                        },
+                                        {
+                                            "article":  "369882",
+                                            "id":  "73413e21",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Бульон Knorr куриный сухая смесь",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "2,2 кг"
+                                        },
+                                        {
+                                            "article":  "109471",
+                                            "id":  "5464f60f",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Баллончики для сифона N2O 10 шт",
+                                            "comment":  "",
+                                            "quantity":  "1",
+                                            "portion":  "10 шт упаковка"
+                                        },
+                                        {
+                                            "article":  "543036",
+                                            "id":  "1a205648",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Баллончики для сифона CO2 10 шт",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "10 шт упаковка"
+                                        },
+                                        {
+                                            "article":  "128137",
+                                            "id":  "c8b48551",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Свечи столбик",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "12 шт"
+                                        },
+                                        {
+                                            "article":  "522672",
+                                            "id":  "9da44127",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Белок яичный пастерилиз.",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,9 л"
+                                        },
+                                        {
+                                            "article":  "121333",
+                                            "id":  "27ea4219",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "RIOBA Сок томатный",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1л"
+                                        },
+                                        {
+                                            "article":  "261333",
+                                            "id":  "84c8b3f9",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Сок грейпфрут ЭльПримо",
+                                            "comment":  "",
+                                            "quantity":  "6",
+                                            "portion":  "1л"
+                                        },
+                                        {
+                                            "article":  "203984",
+                                            "id":  "30b18d31",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "RIOBA Нектар ананасовый",
+                                            "comment":  "",
+                                            "quantity":  "2",
+                                            "portion":  "1л"
+                                        },
+                                        {
+                                            "article":  "420141",
+                                            "id":  "3e295b7b",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Чай каркаде",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,25 кг"
+                                        },
+                                        {
+                                            "article":  "89456",
+                                            "id":  "9d2fe233",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Кориандр молотой МЕТРО ШЕФ",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,32 кг"
+                                        },
+                                        {
+                                            "article":  "577952",
+                                            "id":  "d21e2167",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Фруктоза нова свит",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "211866",
+                                            "id":  "0fecbe7d",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Ванилин",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,2 кг"
+                                        },
+                                        {
+                                            "article":  "333225",
+                                            "id":  "a7f9bc65",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "METRO Chef Мороженое пломбир Ванильное",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "2,5 кг"
+                                        }
+                                    ]
+                      },
+                      {
+                          "contact":  "",
+                          "name":  "ООО \"Продукты-Сервис\"",
+                          "items":  [
+                                        {
+                                            "article":  "-",
+                                            "id":  "3ff7a8b0",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Уксус рисовый \"Нихао\"",
+                                            "comment":  "102 руб/литр",
+                                            "quantity":  "",
+                                            "portion":  "1 л"
+                                        }
+                                    ]
+                      },
+                      {
+                          "contact":  "",
+                          "name":  "ИП Джинибалаев",
+                          "items":  [
+                                        {
+                                            "article":  "-",
+                                            "id":  "309442e5",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Филе бедра курицы без кости без кожи",
+                                            "comment":  "440 руб/кг",
+                                            "quantity":  "10кг",
+                                            "portion":  "10 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "374b8dd9",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "АЛЬЯНС юг",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "-",
+                                            "id":  "97a394cc",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Масло растительное \"Всегда Ясно\"",
+                                            "comment":  "123,5 руб/литр",
+                                            "quantity":  "",
+                                            "portion":  "5 л"
+                                        }
+                                    ]
+                      },
+                      {
+                          "contact":  "",
+                          "name":  "ИП НЕБРЕЕВ Ю.Д.",
+                          "items":  [
+                                        {
+                                            "article":  "-",
+                                            "id":  "4bf5ab57",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Матча кулинарная",
+                                            "comment":  "2000 руб/кг",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        }
+                                    ]
+                      },
+                      {
+                          "contact":  "",
+                          "name":  "ИП АКОПОВА И.И.",
+                          "items":  [
+                                        {
+                                            "article":  "-",
+                                            "id":  "fb8c24d6",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Сироп ванильный №7 1л   ПИНЧ ДРОП",
+                                            "comment":  "311 руб/литр",
+                                            "quantity":  "",
+                                            "portion":  "1 л"
+                                        }
+                                    ]
+                      },
+                      {
+                          "contact":  "",
+                          "name":  "ООО \"Наш Партнер\"",
+                          "items":  [
+                                        {
+                                            "article":  "-",
+                                            "id":  "a133e8d9",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Сыр творожный \"CREAM CHEESE\" 65%, 2,1кг ALTI.",
+                                            "comment":  "382 руб/кг",
+                                            "quantity":  "2,1 кг",
+                                            "portion":  "2,1 кг"
+                                        }
+                                    ]
+                      },
+                      {
+                          "contact":  "",
+                          "name":  "ООО \"Глобал Фудс\"",
+                          "items":  [
+                                        {
+                                            "article":  "-",
+                                            "id":  "b20fd70a",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Соус Терияки Genso",
+                                            "comment":  "1 л - 200 руб",
+                                            "quantity":  "1,5 кг",
+                                            "portion":  "1,5 л"
+                                        }
+                                    ]
+                      },
+                      {
+                          "contact":  "",
+                          "name":  "ООО \"Регион-Трейд\"",
+                          "items":  [
+                                        {
+                                            "article":  "-",
+                                            "id":  "0c231b74",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Картофель фри WEFRY EXPERT FMS9 с панировкой 9х9 мм",
+                                            "comment":  "186 руб/кг",
+                                            "quantity":  "2,5 кг",
+                                            "portion":  "2,5 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "a4138164",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "ЕДИКОНТ",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "-",
+                                            "id":  "41e31a03",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Ананас консервированный \"Барко\" кольца",
+                                            "comment":  "232,05 руб/банка (за 1 л = 273 руб)",
+                                            "quantity":  "",
+                                            "portion":  "0,85 л"
+                                        },
+                                        {
+                                            "article":  "-",
+                                            "id":  "ba13796c",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Сахарная пудра \"Кормилица\"",
+                                            "comment":  "71,40 руб/уп (за 1 кг = 142,80 руб)",
+                                            "quantity":  "",
+                                            "portion":  "0,5 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "22b46546",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "ДонПродукт",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "-",
+                                            "id":  "7128348a",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Лимонная кислота HAAS",
+                                            "comment":  "0,25 кг = 77,5 руб (1 кг - 310 руб)",
+                                            "quantity":  "1кг",
+                                            "portion":  "0,25 кг"
+                                        },
+                                        {
+                                            "article":  "-",
+                                            "id":  "b48cef28",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Соль экстра",
+                                            "comment":  "1 кг - 32,10 руб",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "-",
+                                            "id":  "7148dba7",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Приправа карри",
+                                            "comment":  "621 руб/кг",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        }
+                                    ]
+                      },
+                      {
+                          "contact":  "",
+                          "name":  "ООО ТОРА",
+                          "items":  [
+                                        {
+                                            "article":  "",
+                                            "id":  "0bf032ce",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Приправа Паприка копченая молотая Пряна",
+                                            "comment":  "675 руб",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "ec978a31",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Крахмал кукурузный SpiceExpert",
+                                            "comment":  "205 руб",
+                                            "quantity":  "2 кг",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "653ade7f",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Паста трюфельная ROBO",
+                                            "comment":  "1250 руб/шт (1 кг = 2500 руб)",
+                                            "quantity":  "0,5 кг",
+                                            "portion":  "0,5 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "2b879a63",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Тапиоковый крахмал Garnec",
+                                            "comment":  "130 руб/шт (650 руб/кг)",
+                                            "quantity":  "",
+                                            "portion":  "0,2 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "12c8e609",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Булочка БАО (HAPPY BELLY) 40гр шт / 0,400 уп / 10шт",
+                                            "comment":  "365 руб/упаковка",
+                                            "quantity":  "",
+                                            "portion":  "0,4 кг (10 шт в уп)"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "2abc25e3",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Водоросли Нори жар. Голд Маккото (1 упаковка = 0,23 кг)",
+                                            "comment":  "850 руб/упаковка",
+                                            "quantity":  "",
+                                            "portion":  "0,23 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "1c8f21ae",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Грибы МуЭр",
+                                            "comment":  "2650 руб/упаковка",
+                                            "quantity":  "",
+                                            "portion":  "0,5 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "5be087e1",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Творог соевый ТОФУ",
+                                            "comment":  "180 руб/упаковка",
+                                            "quantity":  "",
+                                            "portion":  "0,5 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "33ca732e",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Паста бобовая сладкая",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,5 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "ec25dd54",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Бобы тонка  AROMANA",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,01 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "775c8152",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Фарш говядина",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "2 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "e1533039",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Соус крабовый 0,5",
+                                            "comment":  "",
+                                            "quantity":  "2 л",
+                                            "portion":  "0,5 л"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "d7514509",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Соус из Черных бобов соевых Lao Gan Ma",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,28 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "350fee69",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Джус-Боллы Bubble Tea Russia со вкусом Манго",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "4f235a8d",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Кимчи DUNKАN  1л",
+                                            "comment":  "435 руб / кг",
+                                            "quantity":  "",
+                                            "portion":  "1 л"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "b3f00960",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Вассаби сух. ТАМАКИ",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "ecc479bf",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Приправа перец Тагораши",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,3 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "4d2411a1",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Тесто для вантонов  0,5",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,5 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "e7bcfb35",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Соус ореховый (кунжутный) Маккото",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 л"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "e5ff9647",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Крахмал пшеничный АИСТ",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,45 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "ad919286",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Рисовый крахмалл Чапсаль",
+                                            "comment":  "",
+                                            "quantity":  "0.8 кг",
+                                            "portion":  "0,4 кг"
+                                        }
+                                    ]
+                      },
+                      {
+                          "contact":  "",
+                          "name":  "ООО МЯСНОФФ",
+                          "items":  [
+                                        {
+                                            "article":  "",
+                                            "id":  "eaca5402",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Вишня с/м б/к",
+                                            "comment":  "544 р кг",
+                                            "quantity":  "",
+                                            "portion":  "2 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "902991d5",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Икра летучей рыбы красная \"ЛЮКС\" \"Тобико-ИККО\"\"",
+                                            "comment":  "2700 руб/кг",
+                                            "quantity":  "",
+                                            "portion":  "0,5 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "cea80149",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Форель филе пласт Трим С с/м (1,5 кг тушка)",
+                                            "comment":  "1750 руб/кг",
+                                            "quantity":  "1,5 кг",
+                                            "portion":  "1,5 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "421a20ce",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Малина с/м (грисс)",
+                                            "comment":  "387 р кг",
+                                            "quantity":  "",
+                                            "portion":  "2 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "e0c22a12",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Смородина черная с/м",
+                                            "comment":  "487 р кг",
+                                            "quantity":  "10",
+                                            "portion":  "2 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "398612fc",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Клубника с/м",
+                                            "comment":  "197 р кг",
+                                            "quantity":  "",
+                                            "portion":  "2 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "b04f3e34",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Крабовые палочки \"Санта Бремор\"",
+                                            "comment":  "509,40 р кг",
+                                            "quantity":  "",
+                                            "portion":  "0,5 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "0f16900d",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Соус Шрирача Uni-Eagle пл/б 815 гр. ЭксИмПасифик",
+                                            "comment":  "342,30 руб/шт",
+                                            "quantity":  "",
+                                            "portion":  "0,815 кг"
+                                        }
+                                    ]
+                      },
+                      {
+                          "contact":  "Закупщик Михаил  заявка в вотс-ап по номеру  8918-544-61-63",
+                          "name":  "ИП БУРЯК",
+                          "items":  [
+                                        {
+                                            "article":  "",
+                                            "id":  "4197c309",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Соус HOISIN PRB 0,26 кг ст/б (24 шт/кор)",
+                                            "comment":  "130 руб/шт",
+                                            "quantity":  "",
+                                            "portion":  "0,26 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "3657388c",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Манго джус болл",
+                                            "comment":  "690 р",
+                                            "quantity":  "",
+                                            "portion":  "1,3 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "045c8b47",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Сухари Панко То До Фуд",
+                                            "comment":  "140 р",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "c7c1d470",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Мед натуральный цветочный п/б",
+                                            "comment":  "265",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "3e05773a",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Кунжут белый очищенный нежареный",
+                                            "comment":  "230",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "e26a66cc",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Тесто для гедза HUANFENG",
+                                            "comment":  "305",
+                                            "quantity":  "2,5 кг",
+                                            "portion":  "0,5 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "db443edb",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Соус Чили сладкий DUNKAN",
+                                            "comment":  "213,88",
+                                            "quantity":  "",
+                                            "portion":  "1,8 л"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "76159c53",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Мука пшеничная в/с",
+                                            "comment":  "35р",
+                                            "quantity":  "",
+                                            "portion":  "25 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "c003e389",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Соус сладкий чили DUNKAN",
+                                            "comment":  "213,88",
+                                            "quantity":  "",
+                                            "portion":  "1,8 л"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "fedd0c13",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Соус устричный PRB",
+                                            "comment":  "575",
+                                            "quantity":  "",
+                                            "portion":  "2,4 л"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "553a020e",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "РМК",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "b0e85917",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Майонез 67 % \"Юг Профи\"",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "10 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "38400cb9",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Масло растительное для фритюра",
+                                            "comment":  "136,4 руб/л",
+                                            "quantity":  "",
+                                            "portion":  "5 л"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "9920e31b",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Масло сливочное \"Матвейка\" 82,5%",
+                                            "comment":  "700 руб/кг",
+                                            "quantity":  "0,4 кг",
+                                            "portion":  "0,4 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "8e2e2949",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Р-маркет",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "345f3739",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пюре личи",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "181e10b4",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пюре гуавы",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "fc5150f5",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пюре манго",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "765e6b73",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пюре маракуйя",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "880d77e2",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пюре черника",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "036a59d3",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пюре дыня",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "78b9dabc",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пюре арбуз",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "57ea37f2",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пюре гранат",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "ff33014d",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Пюре виноград",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1кг"
+                                        },
+                                        {
+                                            "article":  "6915936900475",
+                                            "id":  "bfabd5d0",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Соус-маринад \"Ким-чи\"",
+                                            "comment":  "350 руб/упаковка / Магазин КИМ Продукты из Азии",
+                                            "quantity":  "",
+                                            "portion":  "0,45 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "0fbc59c1",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Белый перец молотый",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "a93a077e",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Напиток \"Алое Вера\"",
+                                            "comment":  "",
+                                            "quantity":  "3л",
+                                            "portion":  "1,5 л"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "4765c8a4",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Шпажки пика  Гольф",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "Кондит. Магаз",
+                                            "id":  "b90ab6a6",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Глюкозный сироп",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "Кондит. Магаз",
+                                            "id":  "9023cf83",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Паста фисташка",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "Кондит. Магаз",
+                                            "id":  "9367e455",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Паста арахис",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "Кондит. Магаз",
+                                            "id":  "8b24853a",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Красители",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "Кондит. Магаз",
+                                            "id":  "2896ee79",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Малина сублим",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "Кондит. Магаз",
+                                            "id":  "5d18e046",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Клубника сублим",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "Кондит. Магаз",
+                                            "id":  "af274c07",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Бумага сахарная печать",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "1 л -А4"
+                                        },
+                                        {
+                                            "article":  "Кондит. Магаз",
+                                            "id":  "a9da8a9d",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Ароматизатор Дыня",
+                                            "comment":  "450 р",
+                                            "quantity":  "",
+                                            "portion":  "0,25 кг"
+                                        },
+                                        {
+                                            "article":  "Кондит. Магаз",
+                                            "id":  "d52f61a5",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Шоколад белый в таблетках (галетах)",
+                                            "comment":  "2000/2300 р кг",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "83099344",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Паста из черных бобов (в коробке картон)",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,3 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "07015a7b",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Марципан",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  ""
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "b4bcbcd1",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Изомальт",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,5 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "21bdab8f",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Яблочная Кислота",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,5 кг"
+                                        },
+                                        {
+                                            "article":  "",
+                                            "id":  "e2537119",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Винная кислота",
+                                            "comment":  "",
+                                            "quantity":  "",
+                                            "portion":  "0,5 кг"
+                                        },
+                                        {
+                                            "article":  "800766815",
+                                            "id":  "65b92064",
+                                            "category":  "Хозтовары",
+                                            "price":  0,
+                                            "name":  "Тапиоковый крахмал",
+                                            "comment":  "280 руб/пачка",
+                                            "quantity":  "",
+                                            "portion":  "0,4 кг"
+                                        }
+                                    ]
+                      }
+                  ]
+}
