@@ -1,27 +1,28 @@
 import { useState } from 'react'
 import { useProcurementStore } from '../store'
 import type { Supplier } from '../types'
+import SupplierDetail from './SupplierDetail'
 import styles from './SuppliersManager.module.css'
 
 function SuppliersManager() {
-  const { suppliers, addSupplier, updateSupplier, deleteSupplier } = useProcurementStore(s => ({
+  const { suppliers, addSupplier, deleteSupplier } = useProcurementStore(s => ({
     suppliers: s.suppliers,
     addSupplier: s.addSupplier,
-    updateSupplier: s.updateSupplier,
     deleteSupplier: s.deleteSupplier
   }))
 
+  const [selectedSupplier, setSelectedSupplier] = useState<string | null>(null)
   const [showAddForm, setShowAddForm] = useState(false)
-  const [editingName, setEditingName] = useState<string | null>(null)
   const [newSupplier, setNewSupplier] = useState<Partial<Supplier>>({
     name: '',
-    contact: '',
     repName: '',
     repPhone: '',
+    email: '',
+    contact: '',
+    note: '',
     orderDeadline: '',
     items: []
   })
-  const [editValues, setEditValues] = useState<Partial<Supplier>>({})
 
   const handleAddSupplier = () => {
     if (newSupplier.name && !suppliers.find(s => s.name === newSupplier.name)) {
@@ -30,14 +31,18 @@ function SuppliersManager() {
         contact: newSupplier.contact || '',
         repName: newSupplier.repName || '',
         repPhone: newSupplier.repPhone || '',
+        email: newSupplier.email || '',
+        note: newSupplier.note || '',
         orderDeadline: newSupplier.orderDeadline || '',
         items: []
       })
       setNewSupplier({
         name: '',
-        contact: '',
         repName: '',
         repPhone: '',
+        email: '',
+        contact: '',
+        note: '',
         orderDeadline: '',
         items: []
       })
@@ -45,17 +50,15 @@ function SuppliersManager() {
     }
   }
 
-  const handleEdit = (supplier: Supplier) => {
-    setEditingName(supplier.name)
-    setEditValues(supplier)
-  }
+  const selectedSupplierData = suppliers.find(s => s.name === selectedSupplier)
 
-  const handleSaveEdit = () => {
-    if (editingName) {
-      updateSupplier(editingName, editValues)
-      setEditingName(null)
-      setEditValues({})
-    }
+  if (selectedSupplierData) {
+    return (
+      <SupplierDetail
+        supplier={selectedSupplierData}
+        onBack={() => setSelectedSupplier(null)}
+      />
+    )
   }
 
   return (
@@ -74,129 +77,131 @@ function SuppliersManager() {
         <div className={styles.formSection}>
           <h3>Новый поставщик</h3>
           <div className={styles.formGrid}>
-            <input
-              type="text"
-              placeholder="Название поставщика *"
-              value={newSupplier.name || ''}
-              onChange={(e) => setNewSupplier({ ...newSupplier, name: e.target.value })}
-              className={styles.input}
-            />
-            <input
-              type="text"
-              placeholder="Контактная информация"
-              value={newSupplier.contact || ''}
-              onChange={(e) => setNewSupplier({ ...newSupplier, contact: e.target.value })}
-              className={styles.input}
-            />
-            <input
-              type="text"
-              placeholder="Имя торгового представителя"
-              value={newSupplier.repName || ''}
-              onChange={(e) => setNewSupplier({ ...newSupplier, repName: e.target.value })}
-              className={styles.input}
-            />
-            <input
-              type="tel"
-              placeholder="Номер телефона (+7...)"
-              value={newSupplier.repPhone || ''}
-              onChange={(e) => setNewSupplier({ ...newSupplier, repPhone: e.target.value })}
-              className={styles.input}
-            />
-            <input
-              type="text"
-              placeholder="Когда делаем заявку (например: понедельник до 10:00)"
-              value={newSupplier.orderDeadline || ''}
-              onChange={(e) => setNewSupplier({ ...newSupplier, orderDeadline: e.target.value })}
-              className={styles.input}
-            />
+            <div className={styles.formGroup}>
+              <label>Наименование поставщика *</label>
+              <input
+                type="text"
+                placeholder="Название"
+                value={newSupplier.name || ''}
+                onChange={(e) => setNewSupplier({ ...newSupplier, name: e.target.value })}
+                className={styles.input}
+              />
+            </div>
+            <div className={styles.formGroup}>
+              <label>Торговый представитель</label>
+              <input
+                type="text"
+                placeholder="Имя и фамилия"
+                value={newSupplier.repName || ''}
+                onChange={(e) => setNewSupplier({ ...newSupplier, repName: e.target.value })}
+                className={styles.input}
+              />
+            </div>
+            <div className={styles.formGroup}>
+              <label>Номер телефона</label>
+              <input
+                type="tel"
+                placeholder="+7..."
+                value={newSupplier.repPhone || ''}
+                onChange={(e) => setNewSupplier({ ...newSupplier, repPhone: e.target.value })}
+                className={styles.input}
+              />
+            </div>
+            <div className={styles.formGroup}>
+              <label>Электронная почта</label>
+              <input
+                type="email"
+                placeholder="email@example.com"
+                value={newSupplier.email || ''}
+                onChange={(e) => setNewSupplier({ ...newSupplier, email: e.target.value })}
+                className={styles.input}
+              />
+            </div>
+            <div className={styles.formGroup}>
+              <label>Когда делаем заявку</label>
+              <input
+                type="text"
+                placeholder="Понедельник до 10:00"
+                value={newSupplier.orderDeadline || ''}
+                onChange={(e) => setNewSupplier({ ...newSupplier, orderDeadline: e.target.value })}
+                className={styles.input}
+              />
+            </div>
+          </div>
+          <div className={styles.textareaGroup}>
+            <div className={styles.formGroup}>
+              <label>Контактная информация</label>
+              <textarea
+                placeholder="Адрес, способ связи и т.д."
+                value={newSupplier.contact || ''}
+                onChange={(e) => setNewSupplier({ ...newSupplier, contact: e.target.value })}
+                className={styles.textarea}
+                rows={3}
+              />
+            </div>
+            <div className={styles.formGroup}>
+              <label>Примечание</label>
+              <textarea
+                placeholder="Любые дополнительные заметки..."
+                value={newSupplier.note || ''}
+                onChange={(e) => setNewSupplier({ ...newSupplier, note: e.target.value })}
+                className={styles.textarea}
+                rows={3}
+              />
+            </div>
           </div>
           <button onClick={handleAddSupplier} className={styles.saveBtn}>
-            Сохранить поставщика
+            ✓ Создать поставщика
           </button>
         </div>
       )}
 
       <div className={styles.suppliersList}>
         <h3>Все поставщики ({suppliers.length})</h3>
-        {suppliers.map(supplier => (
-          <div key={supplier.name} className={styles.supplierCard}>
-            {editingName === supplier.name ? (
-              <>
-                <div className={styles.formGrid}>
-                  <input
-                    type="text"
-                    value={editValues.name || ''}
-                    onChange={(e) => setEditValues({ ...editValues, name: e.target.value })}
-                    className={styles.input}
-                  />
-                  <input
-                    type="text"
-                    value={editValues.contact || ''}
-                    onChange={(e) => setEditValues({ ...editValues, contact: e.target.value })}
-                    className={styles.input}
-                  />
-                  <input
-                    type="text"
-                    value={editValues.repName || ''}
-                    onChange={(e) => setEditValues({ ...editValues, repName: e.target.value })}
-                    className={styles.input}
-                  />
-                  <input
-                    type="tel"
-                    value={editValues.repPhone || ''}
-                    onChange={(e) => setEditValues({ ...editValues, repPhone: e.target.value })}
-                    className={styles.input}
-                  />
-                  <input
-                    type="text"
-                    value={editValues.orderDeadline || ''}
-                    onChange={(e) => setEditValues({ ...editValues, orderDeadline: e.target.value })}
-                    className={styles.input}
-                  />
+        {suppliers.length === 0 ? (
+          <p className={styles.noSuppliers}>Поставщики не добавлены</p>
+        ) : (
+          <div className={styles.grid}>
+            {suppliers.map(supplier => (
+              <div key={supplier.name} className={styles.supplierCard}>
+                <div className={styles.cardHeader}>
+                  <h4>{supplier.name}</h4>
+                  <span className={styles.itemCount}>{supplier.items.length} товаров</span>
                 </div>
-                <div className={styles.editButtons}>
-                  <button onClick={handleSaveEdit} className={styles.saveBtn}>✓ Сохранить</button>
-                  <button onClick={() => setEditingName(null)} className={styles.cancelBtn}>✕ Отмена</button>
+
+                <div className={styles.cardContent}>
+                  {supplier.repName && (
+                    <div className={styles.detail}>
+                      <span className={styles.label}>Представитель:</span>
+                      <span className={styles.text}>{supplier.repName}</span>
+                    </div>
+                  )}
+                  {supplier.repPhone && (
+                    <div className={styles.detail}>
+                      <span className={styles.label}>Телефон:</span>
+                      <span className={styles.text}>{supplier.repPhone}</span>
+                    </div>
+                  )}
+                  {supplier.email && (
+                    <div className={styles.detail}>
+                      <span className={styles.label}>Email:</span>
+                      <span className={styles.text}>{supplier.email}</span>
+                    </div>
+                  )}
+                  {supplier.orderDeadline && (
+                    <div className={styles.detail}>
+                      <span className={styles.label}>Заявка:</span>
+                      <span className={styles.text}>{supplier.orderDeadline}</span>
+                    </div>
+                  )}
                 </div>
-              </>
-            ) : (
-              <>
-                <div className={styles.supplierInfo}>
-                  <div className={styles.supplierName}>{supplier.name}</div>
-                  <div className={styles.details}>
-                    {supplier.repName && (
-                      <div className={styles.detail}>
-                        <span className={styles.label}>Торговый представитель:</span>
-                        <span className={styles.value}>{supplier.repName}</span>
-                      </div>
-                    )}
-                    {supplier.repPhone && (
-                      <div className={styles.detail}>
-                        <span className={styles.label}>Телефон:</span>
-                        <span className={styles.value}>{supplier.repPhone}</span>
-                      </div>
-                    )}
-                    {supplier.orderDeadline && (
-                      <div className={styles.detail}>
-                        <span className={styles.label}>Заявка:</span>
-                        <span className={styles.value}>{supplier.orderDeadline}</span>
-                      </div>
-                    )}
-                    {supplier.contact && (
-                      <div className={styles.detail}>
-                        <span className={styles.label}>Контакты:</span>
-                        <span className={styles.value}>{supplier.contact}</span>
-                      </div>
-                    )}
-                  </div>
-                  <div className={styles.itemCount}>{supplier.items.length} товаров</div>
-                </div>
-                <div className={styles.actions}>
+
+                <div className={styles.cardActions}>
                   <button
-                    onClick={() => handleEdit(supplier)}
-                    className={styles.editBtn}
+                    onClick={() => setSelectedSupplier(supplier.name)}
+                    className={styles.detailsBtn}
                   >
-                    ✎ Редактировать
+                    📋 Редактировать & Товары
                   </button>
                   <button
                     onClick={() => deleteSupplier(supplier.name)}
@@ -205,10 +210,10 @@ function SuppliersManager() {
                     🗑 Удалить
                   </button>
                 </div>
-              </>
-            )}
+              </div>
+            ))}
           </div>
-        ))}
+        )}
       </div>
     </div>
   )

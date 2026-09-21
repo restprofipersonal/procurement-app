@@ -18,6 +18,8 @@ export interface Supplier {
   items: Item[]
   repName?: string
   repPhone?: string
+  email?: string
+  note?: string
   orderDeadline?: string
 }
 
